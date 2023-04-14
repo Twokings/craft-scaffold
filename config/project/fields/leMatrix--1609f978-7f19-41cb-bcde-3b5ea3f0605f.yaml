@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: debd50a0-ae27-4e9e-9053-5bd8fabc3521 # Common
+handle: leMatrix
+instructions: null
+name: 'Le Matrix'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_lematrix}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

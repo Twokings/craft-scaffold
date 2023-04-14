@@ -1,0 +1,55 @@
+fieldLayouts:
+  ed5cf0ba-7362-411d-a8bf-8072d22fac2b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: cad6cedc-995b-444c-98ef-9791fd0a1cec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1609f978-7f19-41cb-bcde-3b5ea3f0605f # Le Matrix
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8572d45d-491c-4a1e-b98e-5644d9f432db
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ca02a4ba-48bc-47f1-b930-60665469853e
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: a74543e7-23e5-4b43-bbc5-1a1984237086 # Pages
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

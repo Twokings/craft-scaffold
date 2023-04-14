@@ -1,13 +1,39 @@
-dateModified: 1681393921
+dateModified: 1681396627
 email:
   fromEmail: ad@ex.org
   fromName: Scaffold
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  files:
+    hasUrls: true
+    name: Files
+    settings:
+      path: '@webroot/files'
+    type: craft\fs\Local
+    url: '@web/files'
 meta:
   __names__:
+    9b5e0e97-d86f-46b0-9310-d5c1314da820: Simple # Simple
+    50f573b5-56d3-4971-93be-d48eb2453c61: Heading # Heading
+    94aa3928-60b8-4f51-84aa-99f8ab9ee7ea: Homepage # Homepage
+    1609f978-7f19-41cb-bcde-3b5ea3f0605f: 'Le Matrix' # Le Matrix
+    27028b4e-8bbf-4fb6-b585-a45752401d64: Homepage # Homepage
     11940605-ffae-48dc-b993-7296c34a16f1: Scaffold # Scaffold
+    a74543e7-23e5-4b43-bbc5-1a1984237086: Pages # Pages
+    a7943288-ec4d-4f60-844c-bd9f68b36705: Heading # Heading
+    aa569804-125d-452c-9cea-c6a97c9d4169: Default # Default
+    b63a515f-eae2-40d7-b974-731820d8ad2a: Image # Image
+    cc53baf8-b887-44cf-8f88-0eaf8335b48b: Content # Content
     cee2cb8d-9d7c-4aa0-8a12-4bdd971a0517: Scaffold # Scaffold
     debd50a0-ae27-4e9e-9053-5bd8fabc3521: Common # Common
+    e44accf4-7d5e-420f-9b42-828569027132: Text # Text
+    ecb36fac-bb4f-4dab-9467-447ceafd0823: Image # Image
+    fe1cb603-1961-4f71-9061-0d6b2806a70b: Images # Images
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true
