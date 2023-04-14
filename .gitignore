@@ -1,4 +1,27 @@
 /.env
 /.idea
 /vendor
+**/.parcel-cache/
+**/node_modules/
+
+
+### File-system cruft and temporary files
+__*
+._*
+.*.swp
+.swp
+*.lock
+!symfony.lock
+!composer.lock
+*lock.json
+!package-lock.json
+.buildpath
+
+### Platfom-specific files
 .DS_Store
+thumbs.db
+Vagrantfile
+.vagrant*
+.idea
+.vscode/*
+appveyor.yml

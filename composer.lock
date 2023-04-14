@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce6d26f77556ea0e6064d9b7bb34c05a",
+    "content-hash": "7685b81611a9bd1543ae6ef4ad5deb1e",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -4114,6 +4114,57 @@
                 "templating"
             ],
             "time": "2022-09-28T08:42:51+00:00"
+        },
+        {
+            "name": "vaersaagod/matrixmate",
+            "version": "2.1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaersaagod/matrixmate/zipball/b772643ae56f908987b380b78cc8407df153f884",
+                "reference": "b772643ae56f908987b380b78cc8407df153f884",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "MatrixMate",
+                "handle": "matrixmate",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/vaersaagod/matrixmate/master/CHANGELOG.md",
+                "class": "vaersaagod\\matrixmate\\MatrixMate"
+            },
+            "autoload": {
+                "psr-4": {
+                    "vaersaagod\\matrixmate\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Værsågod",
+                    "homepage": "https://vaersaagod.no"
+                }
+            ],
+            "description": "Welding Matrix into shape, mate!",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "matrixmate"
+            ],
+            "support": {
+                "docs": "https://github.com/vaersaagod/matrixmate/blob/master/README.md",
+                "issues": "https://github.com/vaersaagod/matrixmate/issues"
+            },
+            "time": "2022-11-10T16:55:04+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
