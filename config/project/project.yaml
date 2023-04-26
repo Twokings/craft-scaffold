@@ -1,4 +1,4 @@
-dateModified: 1682515700
+dateModified: 1682515789
 email:
   fromEmail: ad@ex.org
   fromName: Scaffold
@@ -148,6 +148,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.2.0
+  simplemap:
+    edition: lite
+    enabled: true
+    schemaVersion: 3.4.2
   template-select:
     edition: standard
     enabled: true
