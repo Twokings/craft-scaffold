@@ -45,6 +45,19 @@ fieldLayouts:
         name: Content
         uid: ca02a4ba-48bc-47f1-b930-60665469853e
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            template: ''
+            type: craft\fieldlayoutelements\Template
+            uid: 96332d6a-17a7-4805-81ce-04230e0763f7
+            userCondition: null
+            width: 100
+        name: Meta
+        uid: fa6bb6c0-642c-4639-8d6d-6aff476e3884
+        userCondition: null
 handle: default
 hasTitleField: true
 name: Default
