@@ -7,18 +7,6 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 50f573b5-56d3-4971-93be-d48eb2453c61 # Heading
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: aa795dad-3681-4213-9415-f887db780cce
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: ecb36fac-bb4f-4dab-9467-447ceafd0823 # Image
             instructions: null
             label: null
@@ -33,26 +21,6 @@ fieldLayouts:
         uid: 92d611ea-4077-4289-8d5a-e77377ed5d1d
         userCondition: null
 fields:
-  50f573b5-56d3-4971-93be-d48eb2453c61: # Heading
-    columnSuffix: lvpkgkze
-    contentColumnType: text
-    fieldGroup: null
-    handle: heading
-    instructions: null
-    name: Heading
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
   ecb36fac-bb4f-4dab-9467-447ceafd0823: # Image
     columnSuffix: null
     contentColumnType: string

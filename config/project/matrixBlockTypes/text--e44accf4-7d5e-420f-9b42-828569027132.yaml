@@ -74,6 +74,7 @@ fields:
       removeNbsp: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
+      showWordCount: false
     translationKeyFormat: null
     translationMethod: none
     type: craft\ckeditor\Field

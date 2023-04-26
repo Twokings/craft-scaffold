@@ -1,0 +1,39 @@
+field: 1609f978-7f19-41cb-bcde-3b5ea3f0605f # Le Matrix
+fieldLayouts:
+  ef373fc0-47ba-471c-ab6d-d07b52e6bcb7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6dfdfefe-0a90-432e-b023-06bf46673532 # Video / Embed
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f53e7c3-da21-4fee-bb22-244d45e1ed7f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ae374596-b4ec-4562-832d-5d26f9a84973
+        userCondition: null
+fields:
+  6dfdfefe-0a90-432e-b023-06bf46673532: # Video / Embed
+    columnSuffix: tbclrbck
+    contentColumnType: text
+    fieldGroup: null
+    handle: embed
+    instructions: null
+    name: 'Video / Embed'
+    searchable: false
+    settings:
+      url: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: wrav\oembed\fields\OembedField
+handle: video
+name: Video
+sortOrder: 3

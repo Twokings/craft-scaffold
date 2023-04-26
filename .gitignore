@@ -4,6 +4,8 @@
 **/.parcel-cache/
 **/node_modules/
 
+public/files/
+
 
 ### File-system cruft and temporary files
 __*
@@ -25,3 +27,4 @@ Vagrantfile
 .idea
 .vscode/*
 appveyor.yml
+
