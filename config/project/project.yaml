@@ -1,4 +1,4 @@
-dateModified: 1682515463
+dateModified: 1682515700
 email:
   fromEmail: ad@ex.org
   fromName: Scaffold
@@ -36,6 +36,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
   embeddedassets:
     edition: standard
     enabled: false
