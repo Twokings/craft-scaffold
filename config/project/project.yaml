@@ -1,4 +1,4 @@
-dateModified: 1682695555
+dateModified: 1682695927
 email:
   fromEmail: ad@ex.org
   fromName: Scaffold
@@ -106,7 +106,7 @@ plugins:
     licenseKey: ZTN4QHLZJPFPE3UHTESHJTF2
     schemaVersion: 1.0.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: Scaffold
   schemaVersion: 4.4.0.4

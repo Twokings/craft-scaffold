@@ -1,0 +1,17 @@
+currLabel: Users
+customIcon: null
+enabled: true
+handle: users
+icon: users
+layout: b86d328e-ff85-4fb1-82c9-bd349e4751ab # Default
+level: 1
+newWindow: false
+parent: null
+prevLabel: Users
+prevLevel: 1
+prevParent: null
+prevUrl: users
+sortOrder: 12
+subnavBehaviour: null
+type: craft
+url: users
