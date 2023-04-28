@@ -1,6 +1,6 @@
 {% if currentUser and currentUser.can('accessCp') and not craft.app.request.isLivePreview %}
     {% set element = element|default(craft.app.urlManager.matchedElement) %}
-    {% if element and element.isEditable %}
+    {% if element %}
         {% set editLink = element.getCpEditUrl() %}
         {% if element.draftId is defined and element.draftId is not null %}
             {% set editLink = editLink ~ '&draftId='~ element.draftId %}
@@ -10,7 +10,5 @@
         {% set editLink = cpUrl() %}
         {% set editText = 'control panel'|t %}
     {% endif %}
-    <aside class="cs-edit-link">
         <a href="{{editLink}}" target="_blank" class="button is-info">{{editText}}</a>
-    </aside>
 {% endif %}
