@@ -1,0 +1,7 @@
+{% if key in ['heading', 'header', 'caption', 'title'] %}
+    {% set tag = 'h2' %}
+{% else %}
+    {% set tag = 'p' %}
+{% endif %}
+
+<{{ tag }}>{{ field }}</{{ tag }}>

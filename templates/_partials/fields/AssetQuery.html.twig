@@ -1,0 +1,5 @@
+{#{{ dump(field.all()) }}#}
+
+{% for image in field.all() %}
+    <a href="{{ image.url }}"><img src="{{ image.getUrl('thumbnail') }}" alt="{{ image.title }}"></a>
+{% endfor %}

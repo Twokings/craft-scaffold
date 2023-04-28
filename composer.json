@@ -6,6 +6,7 @@
     "craftcms/cms": "4.4.8",
     "ether/seo": "4.1.1",
     "ether/simplemap": "v4.0.3",
+    "gustavs-gutmanis/craft-symfony-dump": "v1.1.1",
     "olivestudio/craft-olivemenus": "4.0.0",
     "spicyweb/craft-embedded-assets": "3.1.5",
     "superbig/craft3-templateselect": "3.0.0",

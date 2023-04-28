@@ -1,0 +1,16 @@
+{% extends '_layout/base.html.twig' %}
+
+{% block main %}
+
+{#    {% for field in entry.getFieldLayout().getCustomFields() %}#}
+{#        {{ field.handle }} : {{ entry[field.handle] }}#}
+{#    {% endfor %}#}
+
+{#    {% dd entry %}#}
+
+
+    {% include "_partials/matrix.html.twig" with {
+        blocks: entry.leMatrix.all()
+    } %}
+
+{% endblock main %}

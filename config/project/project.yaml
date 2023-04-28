@@ -1,4 +1,4 @@
-dateModified: 1682515789
+dateModified: 1682683038
 email:
   fromEmail: ad@ex.org
   fromName: Scaffold
@@ -11,15 +11,27 @@ fs:
       path: '@webroot/files'
     type: craft\fs\Local
     url: '@web/files'
+  thumbnails:
+    hasUrls: true
+    name: Thumbnails
+    settings:
+      path: '@webroot/thumbnails'
+    type: craft\fs\Local
+    url: '@web/thumbnails'
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
 meta:
   __names__:
-    6dfdfefe-0a90-432e-b023-06bf46673532: 'Video / Embed' # Video / Embed
+    6eed0f4a-4a7f-4a1b-99c2-6e59c00322cd: Thumbnail # Thumbnail
     9b5e0e97-d86f-46b0-9310-d5c1314da820: Simple # Simple
     50f573b5-56d3-4971-93be-d48eb2453c61: Heading # Heading
     94aa3928-60b8-4f51-84aa-99f8ab9ee7ea: Homepage # Homepage
     1609f978-7f19-41cb-bcde-3b5ea3f0605f: 'Le Matrix' # Le Matrix
     27028b4e-8bbf-4fb6-b585-a45752401d64: Homepage # Homepage
     11940605-ffae-48dc-b993-7296c34a16f1: Scaffold # Scaffold
+    a75e5968-4feb-4886-aca8-c3439abb5500: 'Public Schema' # Public Schema
     a74543e7-23e5-4b43-bbc5-1a1984237086: Pages # Pages
     a7943288-ec4d-4f60-844c-bd9f68b36705: Heading # Heading
     aa569804-125d-452c-9cea-c6a97c9d4169: Default # Default
@@ -29,7 +41,6 @@ meta:
     debd50a0-ae27-4e9e-9053-5bd8fabc3521: Common # Common
     e44accf4-7d5e-420f-9b42-828569027132: Text # Text
     ecb36fac-bb4f-4dab-9467-447ceafd0823: Image # Image
-    fccfd4ed-d813-4447-a811-a2bf17386389: Video # Video
     fe1cb603-1961-4f71-9061-0d6b2806a70b: Images # Images
 plugins:
   ckeditor:
@@ -44,102 +55,18 @@ plugins:
     edition: standard
     enabled: false
     schemaVersion: 1.0.0
-    settings:
-      cacheDuration: 300
-      disableVimeoTracking: true
-      embedlyKey: ''
-      enableAutoRefresh: true
-      facebookKey: ''
-      googleKey: ''
-      iframelyKey: ''
-      maxAssetNameLength: 50
-      maxFileNameLength: 50
-      minImageSize: 16
-      parameters:
-        -
-          __assoc__:
-            -
-              - param
-              - maxwidth
-            -
-              - value
-              - '1920'
-        -
-          __assoc__:
-            -
-              - param
-              - maxheight
-            -
-              - value
-              - '1080'
-      preventNonWhitelistedUploads: false
-      referer: ''
-      showThumbnailsInCp: true
-      soundcloudKey: ''
-      useYouTubeNoCookie: true
-      whitelist:
-        - 'amazon.*'
-        - 'amazon.co.*'
-        - amcharts.com
-        - baidu.com
-        - collegehumor.com
-        - dailymotion.com
-        - deviantart.com
-        - embed.ly
-        - 'facebook.*'
-        - 'facebook.co.*'
-        - 'facebook.com.*'
-        - fb.com
-        - 'google.*'
-        - 'google.co.*'
-        - 'google.com.*'
-        - hulu.com
-        - iframely.com
-        - imgur.com
-        - instagr.am
-        - instagram.com
-        - kickstarter.com
-        - meetup.com
-        - meetupstatic.com
-        - netflix.com
-        - pbs.org
-        - nhpbs.org
-        - reddit.com
-        - soundcloud.com
-        - tiktok.com
-        - t.co
-        - 'twitter.*'
-        - 'twitter.co.*'
-        - 'twitter.com.*'
-        - twimg.com
-        - vimeo.com
-        - vine.co
-        - wikipedia.org
-        - wikimedia.org
-        - wordpress.com
-        - yahoo.com
-        - youtu.be
-        - youtube.com
-        - youtube-nocookie.com
   field-manager:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
   matrixmate:
     edition: standard
-    enabled: false
+    enabled: true
     schemaVersion: 1.0.0
   oembed:
     edition: standard
     enabled: true
     schemaVersion: 1.0.1
-    settings:
-      enableCache: '1'
-      enableGdpr: '1'
-      enableNotifications: ''
-      facebookKey: ''
-      notificationEmail: ''
-      previewHidden: ''
   olivemenus:
     edition: standard
     enabled: true
@@ -152,6 +79,10 @@ plugins:
     edition: lite
     enabled: true
     schemaVersion: 3.4.2
+  symfony-dump:
+    edition: standard
+    enabled: false
+    schemaVersion: 1.0.0
   template-select:
     edition: standard
     enabled: true

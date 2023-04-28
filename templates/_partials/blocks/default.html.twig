@@ -1,0 +1,12 @@
+{# iterate over all Fields in the given Block #}
+{% for key, field in block.fields()|filter((f,k) => k not in block.attributes()) %}
+    {% if block[key] is string %}
+        {% set FieldType = 'plainText' %}
+    {% else %}
+        {% set FieldType = className(block[key])|split('\\')|last %}
+    {% endif %}
+    {% include ['_partials/fields/' ~ FieldType ~ '.html.twig', '_partials/fields/unknown.html.twig'] with {
+    'type': FieldType,
+    'field': block[key]
+    } %}
+{% endfor %}

@@ -62,5 +62,5 @@ name: Images
 sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-transformFs: files
+transformFs: thumbnails
 transformSubpath: ''

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51e41abf4a5a659607561013394f0123",
+    "content-hash": "658a4c51592274d9ad36c3225794afea",
     "packages": [
         {
             "name": "adigital/cookie-consent-banner",
@@ -1431,6 +1431,62 @@
                 }
             ],
             "time": "2023-02-25T20:23:15+00:00"
+        },
+        {
+            "name": "gustavs-gutmanis/craft-symfony-dump",
+            "version": "v1.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gustavs-gutmanis/craft-symfony-dump/zipball/e75fa70a675343e2968ccc23a2400c21508c4a8f",
+                "reference": "e75fa70a675343e2968ccc23a2400c21508c4a8f",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0|^4.0.0-alpha",
+                "symfony/var-dumper": "^3.4.46 || ^4.4.0 || ^5.1.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Symfony Dump Twig Filter",
+                "handle": "symfony-dump",
+                "developer": "Gustavs Gūtmanis",
+                "developerUrl": "https://github.com/gustavs-gutmanis",
+                "documentationUrl": "https://github.com/gustavs-gutmanis/craft-symfony-dump",
+                "changelogUrl": "https://raw.githubusercontent.com/gustavs-gutmanis/craft-symfony-dump/master/CHANGELOG.md",
+                "class": "GG\\SymfonyDump\\SymfonyDump",
+                "hasCpSettings": false,
+                "hasCpSection": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "GG\\SymfonyDump\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gustavs Gutmanis",
+                    "homepage": "https://github.com/gustavs-gutmanis"
+                }
+            ],
+            "description": "Symfony `dump` twig filter for Craft CMS",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "debugging",
+                "dump",
+                "symfony-dump",
+                "twig"
+            ],
+            "support": {
+                "docs": "https://github.com/gustavs-gutmanis/craft-symfony-dump",
+                "issues": "https://github.com/gustavs-gutmanis/craft-symfony-dump/issues"
+            },
+            "time": "2023-02-22T14:33:53+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
