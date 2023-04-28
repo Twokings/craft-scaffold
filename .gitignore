@@ -5,6 +5,7 @@
 **/node_modules/
 
 public/files/
+/public/thumbnails
 
 
 ### File-system cruft and temporary files

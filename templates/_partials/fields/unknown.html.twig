@@ -1,4 +1,4 @@
 <div style="border: 1px dashed hotpink; margin: 1rem;">
     <p>Field type `{{ type }}` with key `{{ key }}` is unknown.<p>
-    <small>{{ field | striptags | slice(0, 155) }}</small>
+    <small>{{ dump(field) }}</small>
 </div>

@@ -1,0 +1,14 @@
+{% for key, field in entry.fields()|filter((f,k) => k not in entry.attributes()) %}
+    {% if entry[key] is string or entry[key] == null %}
+        {% set FieldType = 'plainText' %}
+    {% elseif entry[key] is object %}
+        {% set FieldType = className(entry[key])|split('\\')|last %}
+    {% else %}
+        {% set FieldType = 'plainText' %}
+    {% endif %}
+    {% include ['_partials/fields/' ~ FieldType ~ '.html.twig', '_partials/fields/unknown.html.twig'] with {
+        'type': FieldType,
+        'field': entry[key]
+    } %}
+{% endfor %}
+
