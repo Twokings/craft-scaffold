@@ -1,0 +1,17 @@
+currLabel: Navigation
+customIcon: null
+enabled: true
+handle: navigation
+icon: /Users/bob/Sites/scaffold/vendor/verbb/navigation/src/icon-mask.svg
+layout: b86d328e-ff85-4fb1-82c9-bd349e4751ab # Default
+level: 1
+newWindow: false
+parent: null
+prevLabel: Navigation
+prevLevel: 1
+prevParent: null
+prevUrl: navigation
+sortOrder: 6
+subnavBehaviour: null
+type: plugin
+url: navigation

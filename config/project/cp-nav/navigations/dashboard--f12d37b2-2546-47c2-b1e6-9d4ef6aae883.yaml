@@ -1,0 +1,17 @@
+currLabel: Dashboard
+customIcon: null
+enabled: true
+handle: dashboard
+icon: null
+layout: b86d328e-ff85-4fb1-82c9-bd349e4751ab # Default
+level: 2
+newWindow: false
+parent: 5b3fb060-5aec-4c6a-975e-64ca398ae3a1
+prevLabel: Dashboard
+prevLevel: 2
+prevParent: 5b3fb060-5aec-4c6a-975e-64ca398ae3a1
+prevUrl: seo
+sortOrder: 8
+subnavBehaviour: null
+type: plugin
+url: seo

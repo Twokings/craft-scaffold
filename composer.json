@@ -11,7 +11,10 @@
     "spicyweb/craft-embedded-assets": "3.1.5",
     "superbig/craft3-templateselect": "3.0.0",
     "vaersaagod/matrixmate": "2.1.3",
+    "verbb/cp-nav": "4.0.10",
     "verbb/field-manager": "3.0.5",
+    "verbb/navigation": "2.0.17",
+    "verbb/timber": "1.0.1",
     "vlucas/phpdotenv": "^5.4.0",
     "wrav/oembed": "2.3.0"
   },

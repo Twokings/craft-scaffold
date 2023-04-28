@@ -1,0 +1,17 @@
+currLabel: Utilities
+customIcon: null
+enabled: true
+handle: utilities
+icon: tool
+layout: b86d328e-ff85-4fb1-82c9-bd349e4751ab # Default
+level: 1
+newWindow: false
+parent: null
+prevLabel: Utilities
+prevLevel: 1
+prevParent: null
+prevUrl: utilities
+sortOrder: 4
+subnavBehaviour: null
+type: craft
+url: utilities

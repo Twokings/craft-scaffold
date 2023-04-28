@@ -1,0 +1,17 @@
+currLabel: Entries
+customIcon: null
+enabled: true
+handle: entries
+icon: section
+layout: b86d328e-ff85-4fb1-82c9-bd349e4751ab # Default
+level: 1
+newWindow: false
+parent: null
+prevLabel: Entries
+prevLevel: 1
+prevParent: null
+prevUrl: entries
+sortOrder: 1
+subnavBehaviour: null
+type: craft
+url: entries

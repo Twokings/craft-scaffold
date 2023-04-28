@@ -1,4 +1,4 @@
-dateModified: 1682683038
+dateModified: 1682695555
 email:
   fromEmail: ad@ex.org
   fromName: Scaffold
@@ -26,6 +26,7 @@ meta:
   __names__:
     6eed0f4a-4a7f-4a1b-99c2-6e59c00322cd: Thumbnail # Thumbnail
     9b5e0e97-d86f-46b0-9310-d5c1314da820: Simple # Simple
+    27f00269-6f0f-46cd-958c-8376d67e3a97: Menu # Menu
     50f573b5-56d3-4971-93be-d48eb2453c61: Heading # Heading
     94aa3928-60b8-4f51-84aa-99f8ab9ee7ea: Homepage # Homepage
     1609f978-7f19-41cb-bcde-3b5ea3f0605f: 'Le Matrix' # Le Matrix
@@ -36,6 +37,7 @@ meta:
     a7943288-ec4d-4f60-844c-bd9f68b36705: Heading # Heading
     aa569804-125d-452c-9cea-c6a97c9d4169: Default # Default
     b63a515f-eae2-40d7-b974-731820d8ad2a: Image # Image
+    b86d328e-ff85-4fb1-82c9-bd349e4751ab: Default # Default
     cc53baf8-b887-44cf-8f88-0eaf8335b48b: Content # Content
     cee2cb8d-9d7c-4aa0-8a12-4bdd971a0517: Scaffold # Scaffold
     debd50a0-ae27-4e9e-9053-5bd8fabc3521: Common # Common
@@ -51,25 +53,36 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.1
+  cp-nav:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.11
+    settings:
+      defaultSubnavBehaviour: openToggle
   embeddedassets:
     edition: standard
     enabled: false
     schemaVersion: 1.0.0
   field-manager:
     edition: standard
-    enabled: true
+    enabled: false
     schemaVersion: 1.0.0
   matrixmate:
     edition: standard
-    enabled: true
+    enabled: false
     schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: IC01QQ4O9WD85VH8B3IFBQII
+    schemaVersion: 2.0.7
   oembed:
     edition: standard
     enabled: true
     schemaVersion: 1.0.1
   olivemenus:
     edition: standard
-    enabled: true
+    enabled: false
     schemaVersion: 1.1.11
   seo:
     edition: standard
@@ -87,6 +100,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 4.0.0
+  timber:
+    edition: standard
+    enabled: true
+    licenseKey: ZTN4QHLZJPFPE3UHTESHJTF2
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
